@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="produtos.css">
+
+    <title>Produtos</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img class="main-logo" src="./img/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../home.html">Home </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Para você</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="../sobre/sobre.html">Sobre</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="../home.html#fidelidade">Cadastro</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="../contato/contato.html">Contato </a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link"  href="../login/paginas/login.html">Login</a>
+            </li>
+            
+          </div>
+      </div> 
+    </nav>
+    
+    <main class="container ">
+
+      <h1 class="title-custom">Confira os nossos produtos!</h1>
+
+      <div class="row">
+
+      <div class="modal fade" id="sorvete-copo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Empréstimo Consignado</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p class="p-custom">
+                Dinheiro rápido e taxas a partir de 1,68% a.m
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="card col-md card-custom text-center"  id="emp1" style="width: 18rem;">
+          <img src="./img/emp1.png" class="card-img-top card-img-custom" alt="emp1">
+          <div class="card-body">
+            <h5 class="card-title card-title-custom">Empréstimo Consignado</h5>
+            <p class="card-text p-custom">Dinheiro rápido e taxas a partir de 1,68% a.m</p>
+            <button type="button" class="btn btn-primary btn-custom" data-bs-toggle="modal" data-bs-target="#emprestimo-consignado">Saiba mais</button>
+          </div>
+      </div>
+
+      <div class="modal fade" id="emp2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Emprestimo FGTS</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p class="p-custom">
+                Antecipe até 7 parcelas do seu Saque
+                Aniversário do FGTS.
+                Taxas a partir de 1,89% ao mês.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="card col-md card-custom text-center" style="width: 18rem;">
+          <img src="./img/emp2.png" class="card-img-top card-img-custom" alt="emp2">
+          <div class="card-body">
+            <h5 class="card-title card-title-custom">Empréstimo FGTS</h5>
+            <p class="card-text p-custom">Antecipe até 7 parcelas do seu Saque Aniversário do FGTS. Taxas a partir de 1,89% ao mês.</p>
+            <button type="button" class="btn btn-primary btn-custom" data-bs-toggle="modal" data-bs-target="#emprestimo-fgts">Saiba mais</button>
+          </div>
+      </div>
+
+      <div class="modal fade" id="sorvete-artesanal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Empréstimo Pessoal</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p class="p-custom">
+                Empréstimo para aposentados e pensionistas do INSS.
+                Rápido, sem burocracia e com parcelas que cabem no seu bolso.              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="card col-md card-custom text-center" style="width: 18rem;">
+          <img src="./img/emp3.png" class="card-img-top card-img-custom" alt="emp3">
+          <div class="card-body">
+            <h5 class="card-title card-title-custom">Empréstimo Pessoal</h5>
+            <p class="card-text p-custom">Empréstimo para aposentados e pensionistas do INSS. Rápido, sem burocracia e com parcelas que cabem no seu bolso.</p>
+            <button type="button" class="btn btn-primary btn-custom" data-bs-toggle="modal" data-bs-target="#emprestimo-pessoal">Saiba mais</button>
+          </div>
+      </div>
+
+    </div>
+
+  <div class="row">
+
+    <div class="modal fade" id="seguro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Seguros</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p class="p-custom">
+              Você tranquilo. Sua família segura.            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card col-md card-custom text-center" style="width: 18rem;">
+      <img src="./img/seguro.png" class="card-img-top card-img-custom" alt="seguro">
+      <div class="card-body">
+        <h5 class="card-title card-title-custom">Seguros</h5>
+        <p class="card-text p-custom">Você tranquilo. Sua família segura.</p>
+        <button type="button" class="btn btn-primary btn-custom" data-bs-toggle="modal" data-bs-target="#sorvete-casquinha">Saiba mais</button>
+      </div>
+    </div>
+
+    <div class="modal fade" id="conta-corrente" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Conta-corrente</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p class="p-custom">
+              Digital sempre. Presencial se você quiser.            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card col-md card-custom text-center" style="width: 18rem;">
+        <img src="./img/cc.png" class="card-img-top card-img-custom" alt="cc">
+        <div class="card-body">
+          <h5 class="card-title card-title-custom">Conta-corrente</h5>
+          <p class="card-text p-custom">Abra sua conta com a gente e aproveite todas as vantagens de ser um cliente Agibank.</p>
+          <button type="button" class="btn btn-primary btn-custom mb-1" data-bs-toggle="modal" data-bs-target="#conta-corrente">Saiba mais</button>
+        </div>
+    </div>
+
+    <div class="modal fade" id="invest" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Investimento</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p class="p-custom">
+              Poupe e faça o seu dinheiro render.            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card col-md card-custom text-center" style="width: 18rem;">
+        <img src="./img/invest.png" class="card-img-top card-img-custom" alt="invest">
+        <div class="card-body">
+          <h5 class="card-title card-title-custom">Investimento</h5>
+          <p class="card-text p-custom">Poupe e faça o seu dinheiro render.</p>
+            <button type="button" class="btn btn-primary btn-custom mb-1" data-bs-toggle="modal" data-bs-target="#investimento-tradicional">Saiba mais</button>
+        </div>
+    </div>
+
+  </div>
+
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+  </body>
+</html>

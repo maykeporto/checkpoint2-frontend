@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+* {
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+nav ul {
+    align-items: center;
+}
+
+body .carousel  {
+    background-color:rgb(89, 129, 198);
+}
+.carousel-item img {
+    
+    height: 100%;
+    
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .carousel-caption {
+    bottom: 270px;
+  }
+  
+  .carousel-caption h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+  }
+  
+  .carousel-caption p {
+    width: 75%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+  } 
+  
+ 
+  .main-logo {
+
+    width: 150px;
+    height: 150px;
+
+  }
+
+.content-site {
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(89, 102, 198);
+
+}
+
+.first-container {
+
+    padding: 50px;
+
+}
+
+
+.first-container h1 {
+
+    color: rgb(192, 203, 252);
+    text-align:center;
+    font-family: 'Roboto', cursive;
+    font-size: 100px;
+
+}
+
+.card {
+
+    border-radius: 50px;
+    height: 100%;
+    background-color: rgb(192, 217, 252);
+
+}
+
+.card-img-top {
+    padding: 20px;
+}
+
+.card-body {
+    
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(57, 71, 134);
+
+}
+
+.second-part{
+
+    background-image: url(imgs/parallax2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    
+}
+
+.text-center {
+    
+    text-align: center;
+    font-family: 'Roboto', cursive;
+    color: #393f86;
+    font-size: 100px;
+
+}
+
+.btn {
+
+    font-size: 25px;
+}
+
+.third-part{
+
+    background-color: rgb(143, 193, 212);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+    color: white;
+
+}
+.third-container h1 {
+
+    color: rgb(57, 81, 134);
+    text-align:center;
+    font-family: 'Roboto', cursive;
+    font-size: 80px;
+    padding-bottom: 30px;
+}
+
+form {
+
+    background-color: white;
+    text-align: center;
+    max-width:700px;
+    margin:0 auto;
+    padding: 15px;
+    border-radius: 20px;
+    color: black;
+    
+}
+
+label {
+    width: 200px;
+    height: 23px;
+}
+
+.checkbox {
+    width: auto;
+}
+
+form h2 {
+
+    font-size: large;
+    font-weight: 700;
+}
+
+form h3 {
+
+    font-size: medium;
+    
+}
+form img {
+
+    width: 300px;
+}
+
+label {
+
+    font-family: 'Roboto', sans-serif;
+    color: black;
+
+}
+
+input {
+
+    padding: 2px;
+    margin: 1px;
+}
+
+textarea {
+    width: 250px;
+    height: 100px;
+}
+
+button {
+
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+
+}
+
+.send {
+   background-color: rgb(218, 218, 218);
+}
+
+.send:hover {
+    background-color: rgb(99, 174, 99);
+    transform:scale(1.2);
+    transition: all 0.3s ease-in;
+    
+
+}
+
+.clean:hover {
+
+    background-color: rgb(218, 92, 92);
+    transform:scale(1.2);
+    transition: all 0.3s ease-in;
+
+}
+
+footer {
+
+    height: 110px ;
+    background-color: rgb(57, 57, 57);
+    color:white;
+    text-align: center;
+    
+}
+
+a .btn .btn-link {
+
+    color: white;
+}
+

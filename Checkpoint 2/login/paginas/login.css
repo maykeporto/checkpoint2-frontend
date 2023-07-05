@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+* {
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.main-logo {
+
+    width: 150px;
+    height: 150px;
+
+  }
+
+body{
+    background-image: url('../imgs/gelato.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+nav ul {
+    align-items: center;
+}
+
+
+
+section {
+    width: 500px;
+    margin: 50px 200px;
+}
+
+.titulo-principal {
+    font-family: 'Satisfy', cursive;
+    font-size: 80px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+
+
+section .criar-conta {
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    
+}
+
+section a {
+    color: white;
+}
+
+section .esqueceu-senha {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.btn-login{
+    background-color: #C68B59;
+    width: 150px;
+    border-radius: 20px;
+    border:none;
+}
+
+.btn-login:hover{
+    background-color: #865439;
+}
+
+form {
+    color: white;
+}
+
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    color: #fff;
+    background-color: #865439;
+    border-color: #865439;
+    box-shadow: 0 0 0 0.25rem rgb(90 56 38 / 50%);
+}
+
+
+
+footer {
+
+    height: 110px ;
+    background-color: rgb(57, 57, 57);
+    color:white;
+    text-align: center;
+    
+}
+
+@media (max-width: 769px) {
+
+    section {
+
+        width: 80%;
+        margin: 50px auto;
+         
+    }
+
+    section .criar-conta {
+        position: absolute;
+    }
+
+}
+
+
+
+@media (max-width: 281px) {
+
+
+    section .criar-conta {
+        position: absolute;
+        display: table-column;
+        margin: 10px 0 0 -20px ;
+
+    }
+
+    body {
+        height: auto;
+    }
+
+}
+
